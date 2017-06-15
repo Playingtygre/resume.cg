@@ -1,0 +1,108 @@
+html, body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  line-height: 1.5;
+  background: url(back.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position:center;
+}
+
+
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-image: blue;
+  background-position: center top;
+  background-size: cover;
+  margin: 0;
+}
+
+a {
+  color: #204156;
+  text-decoration: none;
+}
+
+.page-title {
+  text-align: center;
+  font-weight: 150;
+}
+
+.page-description {
+  border: 2px solid #000;
+  margin: 2px;
+  text-align: center;
+  padding: 30px;
+}
+
+.gallery {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.parent {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.gallery-item {
+  margin: 20px;
+  border:5px solid #FFF;
+  max-width: 45%;
+  list-style-image: flex-wrap;
+}
+
+.gallery-item ,thumbnail {
+  border: 10px solid #fff;
+ 
+}
+
+/* FOOTER NAVIGATION */
+
+nav {
+  background-color: #FFF;
+}
+
+nav li {
+  display: inline;
+  margin: 0;
+  padding: 0 10px;
+}
+
+nav ul {
+  display: inline;
+}
+
+.contact-btn {
+  float: left;
+}
+
+.contact-btn a {
+  cursor: pointer;
+  margin-right: 30px;
+  padding: 8px 18px;
+  border: 1px solid #204156;
+
+}
+
+.contact-btn a:active {
+  position: relative;
+  top:2px;
+
+}
+
+nav a {
+  height: 60px;
+  line-height: 60px;
+  color: #204156;
+  text-decoration: none;
+}
+img{
+  max-width:100%;
+
+}
